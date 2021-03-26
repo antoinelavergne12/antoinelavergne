@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+
+body {
+	background-color: black;
+}
+
+
+/*deuxième partie*/
+.moi {
+    background-color: white;
+    text-align: center;
+    width: auto;
+    padding-top: inherit;
+    box-shadow: 1px 1px 1px #00000066;
+    border-radius: 7px;
+    margin: 0px 500px;
+
+}
+
+.photomoi { 
+	border-radius: 7%;
+	 }
+
+i :{
+	color: white;
+	text-align: center;
+	height: 250px;
+
+}
+
+ .banner0 {
+ 	background-color: black;
+ 	height: 40px;
+ 	text-align: center;
+ 	border: 2px white;
+ 	border-radius: 40%;
+
+
+ }
+
+.banner1 { 
+	background-image: linear-gradient( 
+345deg
+ , rgb(0 0 0 / 55%) 0%, rgb(0 0 0 / 5%) 35%, rgb(99 1 1 / 54%) 100%), url(corsebanner.jpeg);
+	height: 70vh;
+	background-size: cover;
+	background-position: left;
+	text-align: center;
+	box-shadow: 4px 4px 1px #014a3d96;
+
+}
+
+.banner2 {
+	background-image: linear-gradient( 
+317deg
+ , rgb(12 0 0 / 23%) 0%, rgb(0 0 0 / 0%) 35%, rgb(99 1 1 / 0%) 100%), url(forêtcorse.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    box-shadow: 4px 4px 1px #014a3d96;
+}
+
+.banner3 {
+	background-image: linear-gradient( 
+358deg
+ , rgb(16 0 0 / 68%) 0%, rgb(8 0 0 / 23%) 35%, rgb(0 0 0 / 0%) 100%), url(camerounbanner.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    box-shadow: 4px 4px 1px #014a3d96;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+	margin: 0px 0px;
+	padding: 10px;
+}
+
+h3 {
+	color: black;
+}
+
+.btn-blue {
+  color: white;
+    text-decoration: none;
+    background-color: #9e9eab;
+    padding: 8px;
+    border-radius: 7px;
+    font-family: 'Arial', sans-serif;
+    display: block;
+    width: 10%;
+    margin: 400px 1200px;
+    border: 2px solid #9e9fab;
+  	transition: 1s;
+}
+
+.btn-blue:hover {
+	background-color: transparent;
+	transition: 1s;
+}
+
+
+.button-pas-blue {
+
+  text-decoration: none;
+  color: white;
+  background-color: #6B72E1;
+  display: block;
+  margin: 24px auto;
+  width: 40%;
+  padding: 12px;
+  border-radius: 7px;
+  border: 2px solid #6B72E1;
+  transition: 1s;
+
+}
+
+.button-blue:hover {
+  background-color: white;
+  color: #6B72E1;
+  transition: 1s;
+}
+
+
+
+.imagebox {
+	width: 225px;
+	border-radius: 11px;
+}
+
+
+.box {
+	background-color: white;
+	text-align: center;
+	width: 250px;
+	padding-top: 50px;
+	box-shadow: 1px 1px 1px #00000066;
+	border-radius: 11px;
+	margin: 76px;
+}
+
+
+.controlebox {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 12px;
+	background-image: url("box-shadow: 4px 4px 1px #00000066");
+}
+
+
+.box {
+	background-color: white;
+	text-align: center;
+	width: 250px;
+	padding-top: 50px;
+	box-shadow: 1px 1px 1px #00000066;
+	border-radius: 11px;
+	margin: 76px;
+}
+
+.controlebox {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 12px;
+}
+
+.box:hover {
+	background-color: grey;
+	transition: 1s
+}
+
+.moi:hover {
+	background-color: grey;
+	transition: 1s;
+}
+
+.footer {
+	text-align: right;
+	color: white;
+    text-decoration: none;
+    background-color: #9e9eab;
+    padding: 8px;
+    border-radius: 7px;
+    font-family: 'Arial', sans-serif;
+    display: block;
+    width: 10%;
+    margin: 1px 80%;
+   
+  	
+}
+
+
+
+
